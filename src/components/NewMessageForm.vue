@@ -4,6 +4,11 @@
       type="text"
       data-test="messageText"
     />
+    <button
+      data-test="saveButton"
+    >
+      Save
+    </button>
   </div>
 </template>
 
