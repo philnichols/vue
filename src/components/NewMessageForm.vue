@@ -24,6 +24,7 @@ export default {
   },
   methods: {
     save() {
+      this.$emit('save', this.inputText);
       this.inputText = '';
     },
   },
