@@ -2,17 +2,23 @@
 
 module.exports = {
   root: true,
-  parser: 'babel-eslint',
+  parser: 'vue-eslint-parser',
   parserOptions: {
+    parser: 'babel-eslint',
     sourceType: 'module'
   },
   env: {
     browser: true,
+    "cypress/globals": true,
   },
-  extends: 'airbnb-base',
+  extends: [
+    'airbnb-base',
+    'plugin:vue/recommended',
+  ],
   // required to lint *.vue files
   plugins: [
-    'html'
+    'html',
+    'cypress',
   ],
   // check if imports actually resolve
   settings: {
