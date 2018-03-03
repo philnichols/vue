@@ -8,7 +8,9 @@
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
     "unit": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --single-run",
+    "unit:watch": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --auto-watch",
     "test": "npm run unit",
+    "test:watch": "npm run unit:watch",
     "lint": "eslint --ext .js,.vue src test/unit/specs cypress/integration",
     "build": "node build/build.js",
     "cypress:open": "cypress open"
