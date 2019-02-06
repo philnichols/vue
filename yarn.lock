@@ -3262,6 +3262,11 @@ escodegen@^1.11.0:
   optionalDependencies:
     source-map "~0.6.1"
 
+eslint-config-codingitwrong@^0.1.4:
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/eslint-config-codingitwrong/-/eslint-config-codingitwrong-0.1.4.tgz#7c59cbf4dc6c9eb65486d7b73d49391722318fb3"
+  integrity sha512-Z89ffprPB/jFSIUNmPUTsaPfUvUT/0FxMN+sNfbofD1SlPBpK1iY0xKuH06inGUvEtgoCYWuETYrJ6hbgSqJjA==
+
 eslint-loader@^2.1.1:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/eslint-loader/-/eslint-loader-2.1.2.tgz#453542a1230d6ffac90e4e7cb9cadba9d851be68"
